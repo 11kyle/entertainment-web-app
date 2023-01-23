@@ -3,12 +3,6 @@ import Bookmark from "./Bookmark.vue"
 import { useEntertainmentStore } from "../stores/entertainment"
 
 const store = useEntertainmentStore()
-
-const imgUrl = new URL("./thumbnails/1998/trending/large.jpg", import.meta.url)
-  .href
-// function getImageUrl(name) {
-//   return new URL(`./${name}`, import.meta.url).href
-// }
 </script>
 
 <template>
@@ -26,7 +20,7 @@ const imgUrl = new URL("./thumbnails/1998/trending/large.jpg", import.meta.url)
       </picture> -->
         <img
           className="rounded-lg min-w-[240px] md:min-w-[470px]"
-          :src="item.thumbnail.trending.small"
+          :src="item.thumbnail.trending.large"
           alt="movie"
         />
         <div class="absolute left-4 bottom-4 md:left-6 md:bottom-6">
