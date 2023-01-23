@@ -17,10 +17,11 @@ const app = createApp(App)
 // Each route should map to a component.
 // We'll talk about nested routes later.
 const routes = [
-  { path: "/", component: Home },
-  { path: "/movies", component: Movies },
-  { path: "/tv-series", component: TVSeries },
-  { path: "/bookmarked", component: Bookmarked },
+  // { path: "/", component: Home },
+  { path: "/entertainment-web-app/", component: Home },
+  { path: "/entertainment-web-app/movies", component: Movies },
+  { path: "/entertainment-web-app/tv-series", component: TVSeries },
+  { path: "/entertainment-web-app/bookmarked", component: Bookmarked },
 ]
 
 // Create the router instance and pass the `routes` option

@@ -3,6 +3,12 @@ import Bookmark from "./Bookmark.vue"
 import { useEntertainmentStore } from "../stores/entertainment"
 
 const store = useEntertainmentStore()
+
+const imgUrl = new URL("./thumbnails/1998/trending/large.jpg", import.meta.url)
+  .href
+// function getImageUrl(name) {
+//   return new URL(`./${name}`, import.meta.url).href
+// }
 </script>
 
 <template>

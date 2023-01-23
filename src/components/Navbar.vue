@@ -9,7 +9,7 @@ import { RouterLink } from "vue-router"
     <img src="../assets/logo.svg" atl="logo" />
     <ul className="flex lg:flex-col items-center gap-6">
       <li>
-        <RouterLink to="/">
+        <RouterLink to="/entertainment-web-app/">
           <svg
             class="fill-[#5A698F] hover:fill-[#FC4747]"
             width="20"
@@ -23,7 +23,7 @@ import { RouterLink } from "vue-router"
         </RouterLink>
       </li>
       <li>
-        <RouterLink to="/movies">
+        <RouterLink to="/entertainment-web-app/movies">
           <svg
             class="fill-[#5A698F] hover:fill-[#FC4747]"
             width="20"
@@ -37,7 +37,7 @@ import { RouterLink } from "vue-router"
         </RouterLink>
       </li>
       <li>
-        <RouterLink to="/tv-series">
+        <RouterLink to="/entertainment-web-app/tv-series">
           <svg
             class="fill-[#5A698F] hover:fill-[#FC4747]"
             width="20"
@@ -51,7 +51,7 @@ import { RouterLink } from "vue-router"
         </RouterLink>
       </li>
       <li>
-        <RouterLink to="/bookmarked">
+        <RouterLink to="/entertainment-web-app/bookmarked">
           <svg
             class="fill-[#5A698F] hover:fill-[#FC4747]"
             width="17"
