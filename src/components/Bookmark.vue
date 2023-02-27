@@ -1,5 +1,6 @@
 <template>
   <div
+    data-test="bookmark"
     class="absolute top-2 right-2 grid place-content-center bg-[#10141E] bg-opacity-50 hover:bg-white hover:bg-opacity-50 rounded-full w-8 h-8"
   >
     <img
